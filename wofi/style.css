@@ -1,0 +1,61 @@
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Scrollbar itself is already disabled via hide_scroll=true in config */
+scrollbar {
+    opacity: 0;
+    min-width: 0;
+}
+
+window {
+    background-color: rgba(0, 0, 0, 0.80); /* matches #60000000 bar background */
+    border: 1.8px solid #ff5555;
+    border-radius: 10px;
+}
+
+#input {
+    margin: 10px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #e0e0e0;
+    outline: none;
+}
+
+#outer-box {
+    background-color: transparent;
+    margin: 4px;
+}
+
+#inner-box {
+    background-color: transparent;
+    margin: 4px;
+}
+
+#scroll {
+    background-color: transparent;
+}
+
+#text {
+    color: #e0e0e0;
+}
+
+#entry {
+    background-color: transparent;
+    padding: 6px 8px;
+    border-radius: 6px;
+    margin: 2px 6px;
+}
+
+#entry:selected {
+    background-color: rgba(255, 85, 85, 0.22);
+    border: 1px solid #ff5555;
+}
+
+#entry image {
+    margin-right: 8px;
+}
